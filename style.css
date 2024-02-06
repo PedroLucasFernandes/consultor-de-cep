@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+input[type="text"] {
+    width: calc(100% - 100px);
+    padding: 8px;
+    margin-right: 10px;
+}
+button {
+    padding: 8px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+#map-container {
+    display: none;
+    margin-top: 20px;
+}
+#map {
+    width: 100%;
+    height: 400px;
+}
